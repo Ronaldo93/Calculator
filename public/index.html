@@ -1,0 +1,54 @@
+<!-- calculator -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/frontend.css" />
+    <!-- Script -->
+    <script src="js/front.js" defer></script>
+    <script src="js/calculation.js" defer></script>
+
+    <title>calculator</title>
+  </head>
+  <body>
+    <section class="calculator">
+      <!-- screen -->
+      <section class="result">
+        <input
+          type="text"
+          class="result__input"
+          value="Enter the math"
+          disabled
+        />
+      </section>
+
+      <!-- buttons -->
+      <section class="buttons">
+        <div class="row">
+          <button class="buttons__button">7</button>
+          <button class="buttons__button">8</button>
+          <button class="buttons__button">9</button>
+          <button id="operator">/</button>
+        </div>
+        <div class="row">
+          <button class="buttons__button">4</button>
+          <button class="buttons__button">5</button>
+          <button class="buttons__button">6</button>
+          <button id="operator">*</button>
+        </div>
+        <div class="row">
+          <button class="buttons__button">1</button>
+          <button class="buttons__button">2</button>
+          <button class="buttons__button">3</button>
+          <button id="operator">-</button>
+        </div>
+        <div class="row">
+          <button class="buttons__button">.</button>
+          <button class="buttons__button">0</button>
+          <button id="equal">=</button>
+          <button id="operator">+</button>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
